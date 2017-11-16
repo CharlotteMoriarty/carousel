@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    line-height: 0.7em;
+    vertical-align: baseline;
+    text-decoration: none;
+    outline: 0;
+}
+.carousel {
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+    float: left;
+    margin-left: 30%;
+    border: 5px solid grey;
+    margin-top: 20px;
+   
+}
+.carousel ul {
+    width: 2000px;
+   
+}
+ul li {
+    list-style-type: none;
+    float: left;
+    
+}
