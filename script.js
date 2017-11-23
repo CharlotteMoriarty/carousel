@@ -2,7 +2,7 @@ $(function () {
     var carouselList = $('.carousel-ul');
     
     setInterval(function() {
-        carouselList.animate({'marginLeft': -400}, 1000, moveFirstSlide());
+        carouselList.animate({'marginLeft': -400}, 1000, moveFirstSlide);
 
     }, 1000);
     
