@@ -2,9 +2,9 @@ $(function () {
     var carouselList = $('.carousel-ul');
     
     setInterval(function() {
-        carouselList.animate({'marginLeft': -400}, 1000, moveFirstSlide);
+        carouselList.animate({'marginLeft': -400}, 3000, moveFirstSlide);
 
-    }, 1000);
+    }, 5000);
     
     function moveFirstSlide() {
         var firstItem = carouselList.find('li:first'),
